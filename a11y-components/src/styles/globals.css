@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@import "./tokens.css";
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    background: rgb(var(--background));
+    color: rgb(var(--fg));
+  }
+
+  /* Text rendering */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+  }
+
+  /* Consistent focus ring */
+  :focus-visible {
+    outline: 2px solid rgb(var(--ring));
+    outline-offset: 2px;
+  }
+
+  /* Better selection */
+  ::selection {
+    background: rgb(var(--ring) / 0.25);
+  }
+
+  /* Reduce motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Optional: make scrollbars readable in dark mode */
+  * {
+    scrollbar-color: rgb(var(--border)) transparent;
+  }
+}
+
+@layer components {
+  /* A consistent soft shadow token */
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  /* Optional helper for elevated surfaces */
+  .surface {
+    background: rgb(var(--card));
+    border: 1px solid rgb(var(--border));
+    border-radius: var(--radius-md);
+  }
+
+  /* High contrast enhancement helper for borders */
+  :root[data-contrast="high"] .surface {
+    border-width: 2px;
+  }
+}
