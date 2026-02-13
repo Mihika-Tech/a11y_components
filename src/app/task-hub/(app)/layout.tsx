@@ -40,7 +40,7 @@ export default function TaskHubAppLayout({ children }: { children: React.ReactNo
 
         <div className="flex items-center gap-3">
           <nav className="flex gap-3 text-sm">
-            <a className="text-mutedFg hover:text-fg" href="/task-hub/dashboard">Dashboard</a>
+            <a className="text-mutedFg hover:text-fg" href="/a11y_components/task-hub/dashboard">Dashboard</a>
             <Link className="text-mutedFg hover:text-fg" href="/task-hub/tasks/new">Create</Link>
             <a className="text-mutedFg hover:text-fg" href="/task-hub/settings">Settings</a>
           </nav>
