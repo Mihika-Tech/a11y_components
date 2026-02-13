@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/docs" className="text-sm text-mutedFg hover:text-fg">
                   Docs
                 </Link>
-                <a href="/task-hub/login" className="text-sm text-mutedFg hover:text-fg">
+                <a href="/a11y_components/task-hub/login" className="text-sm text-mutedFg hover:text-fg">
                   Task Hub
                 </a>
               </div>

@@ -24,7 +24,7 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
           <div className="mt-6 text-xs font-semibold text-mutedFg">Components</div>
           <ul className="mt-2 space-y-2 text-sm">
             <li>
-              <Link className="text-mutedFg hover:text-fg" href="/a11y_components/docs">
+              <Link className="text-mutedFg hover:text-fg" href="/docs">
                 Overview
               </Link>
             </li>
