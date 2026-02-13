@@ -35,7 +35,7 @@ export default function LoginPage() {
 
     setSession(true);
     toast.success("Signed in", "Welcome to Task Hub.");
-    router.push("/task-hub/dashboard");
+    router.push("/a11y_components/task-hub/dashboard");
   }
 
   return (

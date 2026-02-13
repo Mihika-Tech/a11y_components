@@ -26,7 +26,7 @@ export default function TaskDetailsClient({ id }: { id: string }) {
           <button
             type="button"
             className="rounded-md border border-border bg-card px-3 py-2 text-sm hover:bg-muted"
-            onClick={() => router.push("/task-hub/dashboard")}
+            onClick={() => router.push("/a11y_components/task-hub/dashboard")}
           >
             Back to dashboard
           </button>
