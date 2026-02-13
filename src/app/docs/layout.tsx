@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="mx-auto max-w-6xl px-4 py-6">
@@ -22,9 +24,9 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
           <div className="mt-6 text-xs font-semibold text-mutedFg">Components</div>
           <ul className="mt-2 space-y-2 text-sm">
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs">
+              <Link className="text-mutedFg hover:text-fg" href="/docs">
                 Overview
-              </a>
+              </Link>
             </li>
 
             <li>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomePage() {
   return (
     <main id="main" className="mx-auto max-w-6xl px-4 py-10">
@@ -8,10 +10,10 @@ export default function HomePage() {
       </p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
-        <a className="rounded-lg border border-border bg-card p-5 shadow-soft" href="/docs">
+        <Link className="rounded-lg border border-border bg-card p-5 shadow-soft" href="/docs">
           <h2 className="font-semibold">Component docs</h2>
           <p className="mt-1 text-sm text-mutedFg">Props, examples, keyboard interactions, ARIA notes.</p>
-        </a>
+        </Link>
 
         <a className="rounded-lg border border-border bg-card p-5 shadow-soft" href="/task-hub/login">
           <h2 className="font-semibold">Accessible Task Hub</h2>
