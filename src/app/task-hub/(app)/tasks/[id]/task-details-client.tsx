@@ -33,7 +33,7 @@ export default function TaskDetailsClient({ id }: { id: string }) {
 
           <Link
             className="rounded-md border border-border bg-card px-3 py-2 text-sm hover:bg-muted"
-            href="/task-hub/tasks/new"
+            href="/a11y_components/task-hub/tasks/new"
           >
             Create task
           </Link>

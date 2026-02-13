@@ -59,10 +59,10 @@ export default function AccessibilityChecklistPage() {
             "Verify there is always a visible focus indicator."
           ]}
           components={[
-            { name: "Modal", href: "/docs/modal" },
-            { name: "Drawer", href: "/docs/drawer" },
-            { name: "Popover", href: "/docs/popover" },
-            { name: "Tabs", href: "/docs/tabs" }
+            { name: "Modal", href: "/a11y_components/docs/modal" },
+            { name: "Drawer", href: "/a11y_components/docs/drawer" },
+            { name: "Popover", href: "/a11y_components/docs/popover" },
+            { name: "Tabs", href: "/a11y_components/docs/tabs" }
           ]}
         />
 
@@ -75,8 +75,8 @@ export default function AccessibilityChecklistPage() {
             "Click outside if allowed. Focus returns to the trigger."
           ]}
           components={[
-            { name: "Modal", href: "/docs/modal" },
-            { name: "Drawer", href: "/docs/drawer" }
+            { name: "Modal", href: "a11y_components//docs/modal" },
+            { name: "Drawer", href: "a11y_components//docs/drawer" }
           ]}
         />
 
@@ -89,9 +89,9 @@ export default function AccessibilityChecklistPage() {
             "Tables should have headers that describe the column meaning."
           ]}
           components={[
-            { name: "TextInput", href: "/docs/text-input" },
-            { name: "DataTable", href: "/docs/data-table" },
-            { name: "Button", href: "/docs/button" }
+            { name: "TextInput", href: "/a11y_components/docs/text-input" },
+            { name: "DataTable", href: "/a11y_components/docs/data-table" },
+            { name: "Button", href: "/a11y_components/docs/button" }
           ]}
         />
 
@@ -104,8 +104,8 @@ export default function AccessibilityChecklistPage() {
             "Do not rely only on color. Include text and ensure focus can reach the error."
           ]}
           components={[
-            { name: "TextInput", href: "/docs/text-input" },
-            { name: "Toast", href: "/docs/toast" }
+            { name: "TextInput", href: "/a11y_components/docs/text-input" },
+            { name: "Toast", href: "/a11y_components/docs/toast" }
           ]}
         />
 
@@ -117,7 +117,7 @@ export default function AccessibilityChecklistPage() {
             "Error toasts should be assertive, info and success should be polite.",
             "Dismiss button should be reachable if the user tabs into the stack."
           ]}
-          components={[{ name: "Toast", href: "/docs/toast" }]}
+          components={[{ name: "Toast", href: "/a11y_components/docs/toast" }]}
         />
 
         <Item
@@ -128,7 +128,7 @@ export default function AccessibilityChecklistPage() {
             "Press Enter to select, Escape to close.",
             "Verify aria-expanded and aria-activedescendant update correctly."
           ]}
-          components={[{ name: "Combobox", href: "/docs/combobox" }]}
+          components={[{ name: "Combobox", href: "/a11y_components/docs/combobox" }]}
         />
 
         <Item

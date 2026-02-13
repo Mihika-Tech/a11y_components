@@ -10,12 +10,12 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
           <div className="mt-4 text-xs font-semibold text-mutedFg">Guides</div>
           <ul className="mt-2 space-y-2 text-sm">
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/accessibility-checklist">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/accessibility-checklist">
                 Accessibility Checklist
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/performance">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/performance">
                 Performance
               </a>
             </li>
@@ -30,52 +30,52 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
             </li>
 
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/button">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/button">
                 Button
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/text-input">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/text-input">
                 TextInput
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/modal">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/modal">
                 Modal
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/toast">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/toast">
                 Toast
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/tabs">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/tabs">
                 Tabs
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/skeleton">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/skeleton">
                 Skeleton
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/data-table">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/data-table">
                 DataTable
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/combobox">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/combobox">
                 Combobox
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/drawer">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/drawer">
                 Drawer
               </a>
             </li>
             <li>
-              <a className="text-mutedFg hover:text-fg" href="/docs/popover">
+              <a className="text-mutedFg hover:text-fg" href="/a11y_components/docs/popover">
                 Popover
               </a>
             </li>

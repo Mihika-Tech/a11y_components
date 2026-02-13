@@ -102,7 +102,7 @@ export default function DashboardPage() {
                   sortable: true,
                   sortValue: (r) => r.title,
                   cell: (r) => (
-                    <a className="hover:underline" href={`/task-hub/tasks/${r.id}`}>
+                    <a className="hover:underline" href={`/a11y_components/task-hub/tasks/${r.id}`}>
                       {r.title}
                     </a>
                   )
@@ -130,7 +130,7 @@ export default function DashboardPage() {
                     >
                       <PopoverItem
                         onSelect={() => {
-                          window.location.href = `/task-hub/tasks/${r.id}`;
+                          window.location.href = `/a11y_components/task-hub/tasks/${r.id}`;
                         }}
                       >
                         Open
